@@ -1,0 +1,189 @@
+@media screen and (max-width:1199px) {
+
+  .container {
+    padding: 0 20px;
+    max-width: 1024px;
+  }
+
+  .edit-btn {
+    margin-right: 25px;
+
+  }
+
+  .th_id {
+    width: 11.2%;
+  }
+
+  .th_name {
+    width: 26%;
+  }
+
+  .th_created,
+  .th_updated {
+    width: 13.8%;
+  }
+
+  .th_contacts {
+    width: 13.2%;
+  }
+
+  .th_action {
+    width: calc(100% - (11.2% + 26% + 2*13.8% + 13.2%));
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width:1023px) {
+
+  /* == COMMON == */
+
+
+  .container {
+    max-width: 768px;
+  }
+
+  /* == / COMMON == */
+
+
+  /* == CLIENTS == */
+
+  .edit-btn {
+    margin-right: 0;
+  }
+
+  .th {
+    padding: 5px;
+  }
+
+  .td {
+    padding: 6px;
+  }
+
+  .th_id {
+    width: 12%;
+  }
+
+  .th_name {
+    width: 26%;
+  }
+
+  .th__arrow_letters {
+    padding-left: 3px;
+  }
+
+  .th_created,
+  .th_updated {
+    width: 13%;
+  }
+
+  .th_contacts {
+    width: 20%;
+  }
+
+  .th_action {
+    width: auto;
+  }
+
+  .time {
+    display: block;
+  }
+
+  .edit-btn {
+    margin-bottom: 10px;
+  }
+
+  /* == / CLIENTS == */
+}
+
+@media screen and (max-width: 767px) {
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .header__form {
+    display: none;
+  }
+
+
+  .header {
+    justify-content: center;
+  }
+
+  .header__logo {
+    margin-left: 10px;
+    margin-right: 0;
+
+  }
+
+  .clients__table-wrapper {
+    overflow-x: auto;
+  }
+
+  .clients__table_loading {
+    overflow-x: hidden;
+  }
+
+  .clients__table {
+    width: 768px;
+  }
+
+  .contact-select {
+    width: 110px;
+  }
+
+  .contact-input {
+    width: calc(100% - (110px + 27px));
+  }
+
+  .contact__delete-btn {
+    width: 27px;
+  }
+
+  .popup__content {
+    width: 300px;
+  }
+
+  .contact-wrapper {
+    width: 300px;
+  }
+
+  .popup__contnet_add {
+    padding: 20px 15px;
+  }
+
+  .header-popup__wrapper {
+    flex-direction: column;
+  }
+
+  .contact-inner-wrapper {
+    margin: 0 15px;
+  }
+
+  .contact-input::placeholder {
+    visibility: hidden;
+  }
+
+  .contact-wrapper {
+    margin: 0 -15px;
+    margin-bottom: 25px;
+  }
+
+  .popup__close {
+    top: 5px;
+    right: 5px;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+
+  .header {
+    height: 40px;
+  }
+
+}
